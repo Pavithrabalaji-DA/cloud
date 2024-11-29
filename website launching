@@ -1,0 +1,17 @@
+sudo su -
+yum update -y
+yum install httpd
+y/n (y)
+systemctl status httpd
+mkdir "name"
+cd "name"
+wget "link"
+ls -lrt
+unzip "name"
+mv * /var/www/html/
+cd /var/www/html/
+security options inboundrules
+systemctl enable httpd
+systemctl start httpd
+systemctl status httpd
+public ipv4 address copy link and paste it in google browser
